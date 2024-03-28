@@ -10,7 +10,7 @@ const traduzir = async(texto) => {
     const textTraducao = texto
     
     //pegando a api
-    const url = `https://api.mymemory.translated.net/get?q=${textTraducao}&langpair=pt-br|en`
+    const url = `https://api.mymemory.translated.net/get?q=${textTraducao}&langpair=pt-br|en|spa`
 
     // requisitando a api
     const response = await fetch(url)
