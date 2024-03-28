@@ -71,3 +71,4 @@ darkMode.addEventListener('click', trocarBackground)
 
  // adicionando um ação para o input, no caso dessa "change" será quando o input mudar
 inputFrom.addEventListener('change', alice)
+inputFrom.addEventListener('keyup', alice)
