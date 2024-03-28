@@ -5,10 +5,13 @@
 }
 
 body{
-height: 100vh;
-}
-main{
     height: 100vh;
+    margin-left: 60px;
+    display: grid;
+    grid-template-rows: 15vh 1fr 10vh;
+}
+
+main{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -18,15 +21,16 @@ main{
 header{
     width: 78%;
     display: flex;
+    align-items: center;
     justify-content: center;
+    width: 100%;
 }
 .retRoxo{
     width: 60px;
     height: 100%;
     background: #5B0B9B;
     position: absolute;
-    right: 100;
-    margin-left: 100;
+    left: 0;
 }
 
 .logoTexto h1{
@@ -39,7 +43,6 @@ header{
     text-align: center; 
     display: flex;
     align-items: center;
-    position: absolute;
     justify-content: center;
 }
 
@@ -116,11 +119,6 @@ header{
     padding: 20px;
 }
 
-.text3{
-    background-color: transparent;
-    padding: 20px;
-}
-
 .tema{
     position: absolute;
     right: 20px;
@@ -142,7 +140,13 @@ img{
     height: 40px;
 }
 
-.footer{
-    size: 100vh;
+footer{
+    display: flex;
+    justify-content: center;
     align-items: center;
+    width: 100%;
+}
+
+footer p{
+    font-size: 1.2rem;
 }
