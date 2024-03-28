@@ -24,7 +24,7 @@ const traduzir = async(texto) => {
 }
 
 // função para mostrar o texto traduzido no input PARA
-const montarForm = async() => {
+export const montarForm = async() => {
 
     // envia o texto a ser traduzido e recebe a tradução
     const textTraduzido = await traduzir(inputFrom.value)
