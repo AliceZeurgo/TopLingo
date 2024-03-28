@@ -10,7 +10,7 @@ const traduzir = async(texto) => {
     const textTraducao = texto
     
     //pegando a api
-    const url = `https://api.mymemory.translated.net/get?q=${textTraducao}&langpair=pt-br|en`
+    const url = `https://api.mymemory.translated.net/get?q=${textTraducao}&langpair=pt-br|en|spa`
 
     // requisitando a api
     const response = await fetch(url)
@@ -24,7 +24,7 @@ const traduzir = async(texto) => {
 }
 
 // função para mostrar o texto traduzido no input PARA
-const montarForm = async() => {
+export const montarForm = async() => {
 
     // envia o texto a ser traduzido e recebe a tradução
     const textTraduzido = await traduzir(inputFrom.value)
