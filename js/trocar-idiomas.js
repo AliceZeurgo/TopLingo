@@ -23,3 +23,29 @@ const idiomas = [
     }
 
 ]
+
+// trocar a língua
+export const trocarIdioma = (input, idioma) => {
+
+    idiomas.forEach(idiomasArray => {
+      
+        if (idiomasArray.id == idioma) {
+
+            input.nextElementSibling.children[1].children[0].src = idiomasArray.src
+            input.nextElementSibling.children[1].children[0].alt = idiomasArray.alt
+            input.nextElementSibling.children[0].placeholder = idiomasArray.placeholder
+
+        }
+
+    })
+
+}
+
+
+filter1.addEventListener('change', () => {
+    trocarIdioma(filter1, filter1.value)
+})
+
+filter2.addEventListener('change', () => {
+    trocarIdioma(filter2, filter2.value)
+})
