@@ -1,11 +1,152 @@
 *{
     margin: 0;
     padding: 0;
+    overflow: hidden;
 }
 
-.retRoxo{
-    width: 100px;
-    height: 100px;
-    color: #5B0B9B;
+body{
+    height: 100vh;
+    margin-left: 60px;
+    display: grid;
+    grid-template-rows: 15vh 1fr 10vh;
+}
+
+main{
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+header{
+    width: 78%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.retRoxo{
+    width: 60px;
+    height: 100%;
+    background: #5B0B9B;
+    position: absolute;
+    left: 0;
+}
+
+.logoTexto h1{
+    height: 116px;
+    top: 37px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 600%;
+    color: #5B0B9B;
+    text-align: center; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.LuaBotao{
+   align-items: center;
+   background-color: transparent;
+}
+
+.Nomes{
+    line-height: 1395px;
+    text-align: center;
+}
+
+.Inputs{
+    height: 200px;
+    width: 555px;
+}
+.InputDe{
+    border-top-style: none ;
+    border-left-style: none ;
+    border-right-style: none ;
+    border-bottom-style: solid black;
+    outline: none;
+    width: 560px;
+    height: 2vh;
+    display: flex;
+    align-items: center;
+    background-image: url(./imgs/br.png);
+    background-position: 38em;
+    background-repeat: no-repeat;
+    background-size: 20px;
+ 
+}
+
+.InputPara{
+    border-top-style: none ;
+    border-left-style: none ;
+    border-right-style: none ;
+    border-bottom-style: solid black;
+    outline: none;
+    width: 560px;
+    height: 2vh;
+    display: flex;
+    align-items: center;
+    background-image: url(./imgs/eng.png);
+    background-position: 38em;
+    background-repeat: no-repeat;
+    background-size: 20px;
+}
+
+.Input3{
+    border-top-style: none ;
+    border-left-style: none ;
+    border-right-style: none ;
+    border-bottom-style: solid black;
+    outline: none;
+    width: 560px;
+    height: 2vh;
+    display: flex;
+    align-items: center;
+    background-image: url(./imgs/eng.png);
+    background-position: 38em;
+    background-repeat: no-repeat;
+    background-size: 20px;
+}
+
+.text1{
+    background-color: transparent;
+    padding: 20px;
+}
+
+.text2{
+    background-color: transparent;
+    padding: 20px;
+}
+
+.tema{
+    position: absolute;
+    right: 20px;
+    top: 19px;
+    width: 80px;
+    height: 60px;
+    background-color: transparent;
+    border: none;
+}
+
+.tema img{
+    width: 100%;
+    height: 100%;
+
+}
+
+img{
+    width: 40px;
+    height: 40px;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+footer p{
+    font-size: 1.2rem;
 }
