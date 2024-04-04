@@ -45,6 +45,7 @@ document.addEventListener("DOMContentLoaded", async() => {
             // reverte ao padrão
             body.style.background = ''
 
+<<<<<<< HEAD
             // reverte ao padrão
             inputFrom.style.color = 'white'
             inputTo.style.color = 'white'
@@ -53,3 +54,8 @@ document.addEventListener("DOMContentLoaded", async() => {
 
     })
 })
+=======
+ // adicionando um ação para o input, no caso dessa "change" será quando o input mudar
+inputFrom.addEventListener('change', alice)
+inputFrom.addEventListener('keyup', alice)
+>>>>>>> 6e06a2eab0dbb033fbd9f49b359b3a28fb38846a
