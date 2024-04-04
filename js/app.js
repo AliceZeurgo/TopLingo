@@ -123,12 +123,12 @@ recognition.addEventListener('result', (e) => {
 
 recognition.addEventListener('audiostart', () => {
     let img = botaoFalar.children[0]
-    img.src = './assets/img/microfone-branco.svg',
+    img.src = './imgs/microfone-branco.svg',
     img.classList.add('animate-scale')
 })
 
 recognition.addEventListener('audioend', () => {
     let img = botaoFalar.children[0]
-    img.src = './assets/img/microfone-borda.svg',
+    img.src = './imgs/microfone-borda.svg',
     img.classList.remove('animate-scale')
 })
