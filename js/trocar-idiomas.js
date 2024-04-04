@@ -8,12 +8,12 @@ const idiomas = [
 
     {
         id: 'pt-br',
-        src: './img/brasil.png',
+        src: './img/br.png',
         alt: 'Bandeira do Brasil'
     },
     {
         id: 'en',
-        src: './img/eua.png',
+        src: './img/eng.png',
         alt: 'Bandeira dos Estados Unidos'
     },
     {
